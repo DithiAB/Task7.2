@@ -15,13 +15,13 @@ const reducer=(state, action)=>{
     return state;
 }
 const counterNew= createContext();
-const Counter = () => {
+const Counter = ({children}) => {
      const[state, dispatch]= useReducer(reducer,initialValue)
     const value={ state, dispatch}
   return (
     <div>
         <counterNew.Provider value={value}>
-            <Count/>
+            {children}
         </counterNew.Provider>
     </div>
   )

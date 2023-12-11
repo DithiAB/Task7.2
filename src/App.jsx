@@ -1,4 +1,5 @@
-import Counter from "./Components/Counter"
+import Count from "./Components/Count"
+
 
 
 function App() {
@@ -6,7 +7,7 @@ function App() {
 
   return (
     <>
-     <Counter/>
+     <Count/>
     </>
   )
 }
