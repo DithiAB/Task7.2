@@ -1,5 +1,4 @@
 import {useReducer, createContext} from 'react'
-import Count from './Count';
 import './Counter.css'
 
 const initialValue=0;
